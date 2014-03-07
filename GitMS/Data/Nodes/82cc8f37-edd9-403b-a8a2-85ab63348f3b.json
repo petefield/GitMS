@@ -1,0 +1,12 @@
+{"Id":"82cc8f37-edd9-403b-a8a2-85ab63348f3b",
+"Parent":"a8682398-4766-4748-8554-a2981e56573c",
+"Name":"About",
+"Path":"about",
+view:"~/views/home/index.cshtml",
+"Fields":[
+	{"Id":"622ff794-48ef-4f2b-b433-687e954e410b",
+	"Node":"82cc8f37-edd9-403b-a8a2-85ab63348f3b",
+	"Name":"Headline",
+	"Type":"SimpleText",
+	"Value":"About Test"}]
+}

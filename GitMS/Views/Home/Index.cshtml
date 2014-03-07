@@ -1,0 +1,29 @@
+﻿@model GitMS.Models.Node
+
+<div id="body">
+
+    <table>
+       <thead>
+           <tr>
+               <th>Name</th>
+               <th>Type</th>
+               <th>Value</th>
+           </tr>
+       </thead>
+
+
+        <tbody>
+            @foreach(var field in Model.Fields)
+            {
+                <tr>
+                    <td>@field.Name</td>
+                    <td>@field.Type</td>
+                    <td>  @GitMS.RenderField(field);</td>
+                </tr>
+                
+              
+            }
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,13 @@
+{"Id":"a8682398-4766-4748-8554-a2981e56573c",
+"Parent":"00000000-0000-0000-0000-000000000000",
+"Name":"Home",
+"Path":"/",
+view:"~/views/home/index.cshtml",
+"Fields":[
+	{"Id":"622ff794-48ef-4f2b-b433-687e954e410b",
+	"Node":"a8682398-4766-4748-8554-a2981e56573c",
+	"Name":"Headline",
+	"Type":"SimpleText",
+	"Value":"Hello World"}
+	]
+}
